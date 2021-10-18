@@ -1,0 +1,19 @@
+0) Se utiliza git flow para el manejo de las ramas.
+
+1) Se trabaja en la branch develop y se sube a main mediante PR.
+
+2) Se separan las logicas del programa en distintos archivos.
+
+3) Se desarrollara en la version mas reciente de Python para poder trabjar con data types.
+
+4) Se seguira el estandar PEP8 para escribir codigo eficiente, escalable y profesional.
+
+5) Se mejora la logica de palindrome.py quitando variables innecesarias que cambian de valor varias veces dentro de la misma funcion (las varibles inecesarias pueden aumentar el coste algoritmico de nuestro programa)
+    un bloque condicional sencillo debe siempre reemplazarce por un operador ternario, es mas limpio y se hace uso de menos lineas de codigo!
+
+6) Se mejora la logica de ui.py (antes funcion run()) de nuevo quitando variables innecesarias que cambian de valor varias veces dentro de la misma funcion.
+    Se hace uso de un operador ternario para limpiar la logica condicional que hay en esta funcion.
+
+7) Por ultimo se llama al programa desde main.py, es este archvio el encargado de ejecutar todo el programa. Es una buena practica separar todas las logicas del programa en diferentes archivos.
+
+TODO: #2 #1 Hacer que el programa solo acepte cadenas de texto (string)
